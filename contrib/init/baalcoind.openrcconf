@@ -1,0 +1,26 @@
+# /etc/conf.d/baalcoind: config file for /etc/init.d/baalcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/baalcoin/baalcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/baalcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/baalcoind.pid"
+
+# Where to write baalcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/baalcoind"
+
+# User and group to own baalcoind process
+#BITCOIND_USER="baalcoin"
+#BITCOIND_GROUP="baalcoin"
+
+# Path to baalcoind executable
+#BITCOIND_BIN="/usr/bin/baalcoind"
+
+# Nice value to run baalcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

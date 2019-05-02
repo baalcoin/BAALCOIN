@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BAALcoin
+Comment=BAALcoin P2P Cryptocurrency
+Exec=baalcoin-qt %u
+Terminal=false
+Type=Application
+Icon=baalcoin128
+MimeType=x-scheme-handler/baalcoin;
+Categories=Office;Finance;
+Name[en_US]=baalcoin-qt.desktop

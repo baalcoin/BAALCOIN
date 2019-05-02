@@ -1,0 +1,11 @@
+[Protocol]
+exec=baalcoin-qt '%u'
+protocol=baalcoin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
